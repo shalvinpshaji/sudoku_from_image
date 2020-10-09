@@ -1,0 +1,4 @@
+tensorflow == 2.1
+opencv == 3.4.2
+pygame == 1.9.6
+numpy == 1.18.5
