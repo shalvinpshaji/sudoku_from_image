@@ -20,6 +20,7 @@ def open_screen():
     text_rect.center = (240, 300)
     display.blit(text, text_rect)
 
+
 def draw():
     # horizontal lines
     for i in range(10):
@@ -118,7 +119,7 @@ while True:
                                                           filetypes=[('png', '.png'), ('jpeg', '.jpeg'),
                                                                      ('jpg', '.jpg')])
                         if file:
-                            sudoku = sudoku_solver.Sudoku(Finder().get_board(path=file, preview=True))
+                            sudoku = sudoku_solver.Sudoku(Finder().get_board(path=file))
                             opened = True
         pygame.display.flip()
         display.fill(white)
