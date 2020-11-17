@@ -6,4 +6,4 @@ from where you left it.
 Open a command prompt and type 
 > python gui.py
 ## Note:
-If the ML model make any mistakes in the prediction or made any wrong correction, the program won't warn you and the solve functionality would do nothing.
+If the ML model make any mistakes in the prediction or you have made any wrong changes, the program won't warn you and the solve functionality would do nothing.
